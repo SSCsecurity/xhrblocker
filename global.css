@@ -1,0 +1,44 @@
+body {
+    /* Override Chrome's built in page margin */
+    margin: 0 !important;
+    background-color: #E7EBF3 !important;
+}
+
+#logo {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.box {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #A49494;
+    box-shadow: 2px 4px 4px rgba(118, 118, 118, 0.25);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 20px 30px;
+    top: 100px;
+    width: 600px;
+    margin-top: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    width: 85%;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -pre-wrap;
+  word-wrap: break-word;
+}
+
+i {
+    margin-left: 15px;
+}
